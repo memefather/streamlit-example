@@ -2,12 +2,8 @@ import streamlit as st
 import os
 import openai
 
-"""
-# Welcome to SongQuiz! 🚀
+st.title("Welcome to SongQuiz! 🚀")
 
-What's the lyrics again? Let's test your musical knowledge!
-
-"""
 openai.api_key = os.getenv("OPENAI_API_KEY")
 model_id = 'gpt-3.5-turbo'
 
